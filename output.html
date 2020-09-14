@@ -6,10 +6,9 @@
     </head>
     <body>
         <div>
-            <input type="text" id="inputString" placeholder="Enter a string to encrypt">
-            <input type="number" id="n" placeholder="Enter the degree">
-            <br><strong>Encrypted String: </strong><p id="outputString"></p>
-            <br><strong>Decrypted String: </strong><p id="decryptedString"></p>
+            <br><strong>Input the key: </strong><input type="number" id="n" placeholder="Input key">
+            <br><strong>Original text: </strong><textarea id="originalText"></textarea>
+            <br><strong>Encrypted text: </strong><textarea id="encryptedText"></textarea>
             <br><input type="button" onclick="encrypt()" value="Encrypt!">
             <input type="button" onclick="decrypt()" value="Decrypt!">
         </div>
