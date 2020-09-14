@@ -13,7 +13,7 @@ function encrypt() {
     } else {
         //creating the encryption array
         for(var i = 0; i < inputArray.length; i++) {
-            processedArrayGrid[i] = new Array(n.toNumber);
+            processedArrayGrid[i] = new Array(key.toNumber);
             processedArrayGrid[i][indexPosition] = inputArray[i];
             if(indexPositionIncreasing == true) {
                 indexPosition += 1;
